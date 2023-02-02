@@ -1,8 +1,20 @@
+import Logo from './Logo'
+import Menu from './Menu'
 
 export default function Navbar(){
   return (
-    <div className="bg-slate-500 p-2 m-5 text-center border-4 border-gray-800">
-      <h1 className="font-mono text-3xl">Alex Duran</h1>
-    </div>
+    <header className="
+      bg-slate-700
+      font-mono
+      text-slate-200
+      text-5xl
+      h-20
+      shadow-2xl
+    ">
+      <div className="container">
+        <Logo />
+        <Menu />
+      </div>
+    </header>
   )
 }
